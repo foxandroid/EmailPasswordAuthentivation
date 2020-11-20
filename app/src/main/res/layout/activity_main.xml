@@ -86,7 +86,23 @@
         android:layout_centerHorizontal="true"
         android:text="Register"/>
 
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Already have Account"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnRegister"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        android:layout_below="@id/textview2"/>
 
 
 </RelativeLayout>
