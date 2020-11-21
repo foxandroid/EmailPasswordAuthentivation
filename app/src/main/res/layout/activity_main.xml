@@ -87,15 +87,17 @@
         android:text="Register"/>
 
     <TextView
-        android:id="@+id/textview2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/textview2"
         android:textColor="@color/black"
-        android:text="Already have Account"
+        android:text="Already have account"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/btnRegister"/>
 
+
     <TextView
+        android:id="@+id/logintextview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"

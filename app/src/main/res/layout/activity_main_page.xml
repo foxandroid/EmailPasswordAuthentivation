@@ -7,6 +7,7 @@
     tools:context=".MainPage">
 
     <TextView
+        android:id="@+id/loggedin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Successfuly Logged In"
@@ -14,6 +15,15 @@
         android:textSize="40dp"
         android:textColor="@color/black"
         android:fontFamily="cursive"/>
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/loggedin"
+        android:layout_marginTop="20dp"/>
 
 
 </RelativeLayout>
